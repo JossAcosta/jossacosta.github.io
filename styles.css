@@ -1,0 +1,65 @@
+#main .carousel-inner img {
+    max-height: 95vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+#footer{
+    max-width: 100%;
+    /* background: linear-gradient(0deg,#1c3643,#273b47 25%,#1e5372); */
+    background-color: #343a40;
+  }
+  
+  #footer a{
+      text-decoration: none;
+    color: #FFFFFF;
+  }
+
+  #carousel {
+      position: relative;
+  }
+
+  #carousel .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color:  rgba(0, 0, 0, 0.5);
+      color: white;
+      z-index: 1;
+  }
+  #carousel .overlay .container,
+  #carousel .overlay .row{
+      height: 100%;
+  }
+
+  #carousel .overlay h1{
+      margin-top: 60%;
+  }
+
+  .card img{
+      max-height: 141px ;
+  }
+  .card-body{
+      min-height: 346px;
+      max-width: 346px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+  
+  #skills {
+      height: 100vh;
+      background-color: #343a40;
+      color:white;
+  }
+  #skills img{
+      max-width: 100%;
+      min-width: 100%;
+      max-height: 50vh;
+  }
+  
+  #skills h2{
+      margin-top: 8%;
+  }
