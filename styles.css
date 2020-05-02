@@ -15,11 +15,7 @@
     visibility: visible;
   }
 
-  .navbar_code{
-    color:white;
-    width: 10%;
-    padding-right: 5px;
-  }
+  
 #main .carousel-inner img {
     max-height: 95vh;
     object-fit: cover;
@@ -94,6 +90,22 @@
   #skills h2{
       margin-top: 8%;
   }
+  .hard_skills{
+    font-size: 25px;
+    display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+  .grid_col{
+    grid-template-columns: 1/2;
+  }
+  .grid_col_2{
+    grid-template-columns: 2/3;
+  }
+
+  .footer_text{
+    font-size: 20px;
+  }
 
   @media only screen and (max-width: 1000px) and (min-width: 300px){
    .card{
@@ -102,4 +114,10 @@
    #carousel .overlay h1{
     margin-top: 20%;
 }
+.hard_skills{
+  font-size: 12px;
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
   }
