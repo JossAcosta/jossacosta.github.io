@@ -7,14 +7,23 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="styles.css">
     <title></JA></title>
   </head>
-  <body data-spy="scroll" data-target="#navbar" data-offset="60">
+  <body data-spy="scroll" data-target="#navbar" data-offset="60" >
+    <!-- splash -->
+    <div id="splash" class="uk-flex uk-flex-column uk-flex-center uk-flex-middle uk-text-center@s magenta" uk-height-viewport="" style="box-sizing: border-box; min-height: 100vh; height: 100vh; display: none;">
+      <img src="assets/images/web-development.svg" class="logo_splash" alt="logo">
+    </div>
+
+    <!-- <section class="uk-position-top ocultar" id="menu"> -->
+    <!-- navbar -->
     <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="" alt="JA logo">
+            <!-- <img src="assets/images/code.svg" alt="Code logo" class="navbar_code"> -->
+            <i class="fas fa-code"></i>
             Josseline Acosta
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,12 +85,12 @@
     <div class="container">
         <div class="row">
             <div class="col text-center text-uppercase">
-                <small> conoce los</small>
+                <small> conoce mis</small>
                 <h2>proyectos</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="row align-center">
+            <div class="col-12 col-md-6 col-lg-4 mb-4 ">
                 <div class="card" style="width: 18rem;">
                     <img src="assets/images/project1.png" class="card-img-top" alt="LAB-NOTES imagen">
                     <div class="card-body">
@@ -95,7 +104,7 @@
                       <h5 class="card-title">LAB-NOTES!</h5>
                       
                       <p class="card-text">Aplicación web en la cual se puede registrar y logear un usuario con correo electrónico y contraseña, una vez que el usuario haya iniciado sesión podrá crear, visualizar, editar y elimanr sus notas; asimismo podrá resaltar sus notas más relevantes. </p>
-                      <a href="https://jossacosta.github.io/GDL004-lab-notes/" class="btn btn-secondary">VER</a>
+                      <a href="https://jossacosta.github.io/GDL004-lab-notes/" class="btn btn-secondary" target="_blank">VER MÁS </a>
                     </div>
                   </div>
             </div>
@@ -112,7 +121,7 @@
                       <h5 class="card-title">MD-LINKS!</h5>
                      
                       <p class="card-text">Es una libreria donde su función es leer un archivo markdown para extraer los links existentes, posteriormente evalúa el status de cada uno de ellos para visualizar los links en "ok" y los que estan corruptos. </p>
-                      <a href="https://www.npmjs.com/package/gdl004-md-links" class="btn btn-secondary">VER</a>
+                      <a href="https://www.npmjs.com/package/gdl004-md-links" class="btn btn-secondary" target="_blank">VER MÁS</a>
                     </div>
                   </div>
             </div>
@@ -131,7 +140,7 @@
                       
                       <p class="card-text">Aplicación web en la cual puedes buscar a tu Pokemón favorito y visualizar información sobre cada uno de ellos. </p>
                       <div class="card-body-btn"></div>
-                        <a href="https://jossacosta.github.io/Catch-them-all/" class="btn btn-secondary">VER</a>
+                        <a href="https://jossacosta.github.io/Catch-them-all/" class="btn btn-secondary" target="_blank">VER MÁS</a>
 
                       </div>
                       
@@ -153,7 +162,7 @@
                           <h5 class="card-title">WHAT´s ON?</h5>
                           
                           <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias laboriosam tempora architecto consectetur deserunt, tenetur quam quod consequatur sed error ex pariatur ut dolorem porro! . </p>
-                          <a href="#" class="btn btn-secondary">VER</a>
+                          <a href="#" class="btn btn-secondary" target="_blank">VER MÁS</a>
                         </div>
                       </div>
                 </div>
@@ -171,7 +180,7 @@
                           <h5 class="card-title">DATA-LOVERS: HARRY POTTER </h5>
                           
                           <p class="card-text">Sitio web donde encontrarás información de los personajes de la exitosa saga de Harry Potter. </p>
-                          <a href="https://jossacosta.github.io/HarryP-data-lovers/src/index.html" class="btn btn-secondary">VER</a>
+                          <a href="https://jossacosta.github.io/HarryP-data-lovers/src/index.html" class="btn btn-secondary" target="_blank">VER MÁS</a>
                         </div>
                       </div>
                 </div>
@@ -188,7 +197,7 @@
                           <h5 class="card-title">TRIVIA</h5>
                          
                           <p class="card-text">Sitio web con dos categórias de preguntas, cuenta con una categoría de calcúlo menta y ortografía. </p>
-                          <a href="https://jossacosta.github.io/Trivia/index.html" class="btn btn-secondary">VER</a>
+                          <a href="https://jossacosta.github.io/Trivia/index.html" class="btn btn-secondary" target="_blank">VER MÁS</a>
                         </div>
                       </div>
                 </div>
@@ -205,7 +214,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-lg-6 pl-0 pr-0 ">
-                <img src="assets/images/side.jpg" alt="" />
+                <img src="assets/images/1s.jpg" alt="" />
             </div>
             <div class="col-12 col-lg-6 pt-2 pb-2">
                <h2 >Habilidades Técnicas</h2>
@@ -238,10 +247,10 @@
                    <li>Time Management</li>
                    
                </ul>
-               <a class="btn btn-outline-light"> Resume</a>
+               <!-- <a class="btn btn-outline-light"> Resume</a> -->
             </div>
             <div class="col-12 col-lg-6 pl-0 pr-0 ">
-                <img src="assets/images/side.jpg" alt="" />
+                <img src="assets/images/3s.jpg" alt="" />
             </div>
         </div>
     </div>
@@ -251,25 +260,42 @@
 <!-- footer -->
 <footer id="footer" class="pb-4 pt-4">
     <div class="container">
+      <div class="row text-center pb-2 pt-4">
+        <p class="col-12 col-lg">Si deseas más información acerca de mis servicios, contáctame. </p>
+      </div>
         <div class="row text-center">
             <div class="col-12 col-lg">
-                <a href="#">Linked In</a>
+                <a href="https://www.linkedin.com/in/jossacosta/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+                </a>
             </div>
             <div class="col-12 col-lg">
-                <a href="#">Git hub</a>
+                <a href="https://github.com/JossAcosta" target="_blank"> 
+                <i class="fab fa-github"></i>
+              </a>
             </div>
             <div class="col-12 col-lg">
-                <a href="#">Twitter</a>
+                <a href="https://twitter.com/joss111x" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                
             </div>
             <div class="col-12 col-lg">
-                <a href="#">Instagram</a>
+                <a href="https://www.instagram.com/joss111x/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
             </div>
             <div class="col-12 col-lg">
-                <a href="#">Facebook</a>
+                <a href="https://www.facebook.com/josseline.acosta.m/" target="_blank">
+                  <i class="fab fa-facebook"></i>
+                </a>
             </div>
         </div>
     </div>
 </footer>
+<!-- </section> -->
+    <script src="index.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
