@@ -37,6 +37,9 @@
   #carousel .overlay h1{
       margin-top: 60%;
   }
+  .card-img-top{
+      height: 141px;
+  }
 
   .card img{
       max-height: 141px ;
